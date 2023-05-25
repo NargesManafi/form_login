@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="file.css">
+    <title>Document</title>
+</head>
+<body>
+   
+
+    <div class="container">
+        <form class="item">
+            <div class="title">
+              <label class="label" for="name">name</label>
+              <input class="input" type="text" id="name" name="name" placeholder="نام خود را وارد کنید" required>
+              <span class="error" id="nameError"></span>
+            </div>
+            <div class="title">
+              <label class="label" for="email">email</label>
+              <input class="input" type="email" id="email" name="email" placeholder="ایمیل خود را وارد کنید" required>
+              <span class="error" id="emailError"></span>
+            </div>
+            <div class="title">
+              <label class="label" for="password">password</label>
+              <input class="input" type="password" id="password" name="password" placeholder="پسورد خود را وارد کنید" required>
+              <span class="error" id="passwordError"></span>
+            </div>
+            <button class="button" type="submit">login</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
